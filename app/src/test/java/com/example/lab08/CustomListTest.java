@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CustomListTest {
     @Test
     public void testHasCity() {
-        City city = new City("Edmonton", "AB");
-        city.hasCity();
+        CustomList customList = new CustomList();
+        customList.hasCity(new City("Edmonton", "AB"));
     }
 }
